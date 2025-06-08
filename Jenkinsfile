@@ -9,6 +9,7 @@ pipeline {
 
                 sh '''
                 java --version
+                mvn -v
                 ls -la
                 '''
             }
